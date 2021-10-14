@@ -1,6 +1,6 @@
 
 class Solution:
-    def TwoSum(nums :list[int],target:int):
+    def TwoSum(nums :list[int],target:int) -> list[int]:
         for index,num in enumerate(nums):
             subtract=target-num
             if subtract in nums and nums[index]!=subtract:
