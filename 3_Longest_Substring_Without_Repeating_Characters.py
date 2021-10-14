@@ -1,6 +1,6 @@
 
 class Solution:
-    def Longest_Substring_Without_Repeating_Characters(stringg: str):
+    def Longest_Substring_Without_Repeating_Characters(stringg: str) -> dict:
         how_long=0
         array_of_substring=[]
         dict={}
