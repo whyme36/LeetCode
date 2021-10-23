@@ -45,6 +45,18 @@ The overall run time complexity should be ```O(log (m+n))```.
 
 You are given an array of ```k``` linked-lists ```lists```, each linked-list is sorted in ascending order.
 
+**Input:** lists = [[1,4,5],[1,3,4],[2,6]]
+
+**Output:** [1,1,2,3,4,4,5,6]
+(Explanation: The linked-lists are:
+[
+  1->4->5,
+  1->3->4,
+  2->6
+]
+merging them into one sorted list:
+1->1->2->3->4->4->5->6)
+
 ## 6. (25.) Reverse Nodes in k-Group
 
 Given a linked list, reverse the nodes of a linked list *k* at a time and return its modified list.
@@ -53,6 +65,9 @@ Given a linked list, reverse the nodes of a linked list *k* at a time and return
 
 You may not alter the values in the list's nodes, only nodes themselves may be changed.
 
+**Input:** head = [1,2,3,4,5], k = 3
+
+**Output:** [3,2,1,4,5]
 
 
 
