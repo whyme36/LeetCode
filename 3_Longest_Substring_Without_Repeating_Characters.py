@@ -1,6 +1,6 @@
 
 class Solution:
-    def Longest_Substring_Without_Repeating_Characters(stringg: str) -> dict:
+    def Longest_Substring_Without_Repeating_Characters(self,stringg: str) -> dict:
         how_long=0
         array_of_substring=[]
         dict={}
@@ -21,5 +21,7 @@ class Solution:
 
 
         return dict
-print(max(Solution.Longest_Substring_Without_Repeating_Characters("abcabcbb").values()))
-# print(Solution.Longest_Substring_Without_Repeating_Characters("abcabcbb"))
+if __name__ == '__main__':
+    s=Solution()
+    print(max(s.Longest_Substring_Without_Repeating_Characters("abcabcbb").values()))
+    # print(Solution.Longest_Substring_Without_Repeating_Characters("abcabcbb"))

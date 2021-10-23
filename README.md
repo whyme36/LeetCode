@@ -1,8 +1,8 @@
 # LeetCode
 
-In this repository I'm going to solve some problems published on the site: https://leetcode.com/problemset/all/
+In this repository I'm going to solve some problems published on the [site](https://leetcode.com/problemset/all/). Problems are classified as: easy, medium, hard.
 
-## 1. Two Sum
+## 1. Two Sum (Easy)
 Given an array of integers ```nums``` and an integer ```target```, return indices of the two numbers such that they add up to ```target```.
 
 You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
@@ -13,7 +13,7 @@ You can return the answer in any order.
 
 **Output:** [0,1] (*Explanation: nums[0] + nums[1] == 9, we return [0, 1]*)
 
-## 2. Add Two Numbers
+## 2. Add Two Numbers (Medium)
 
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
@@ -23,7 +23,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Output:** [7,0,8] (*Explanation: 342 + 465 = 807*)
 
-## 3. Longest Substring Without Repeating Characters
+## 3. Longest Substring Without Repeating Characters (Medium)
 
 Given a string ```s```, find the length of the **longest substring** without repeating characters.
 
@@ -31,7 +31,7 @@ Input: s = "abcabcbb"
 
 Output: 3 (*Explanation: The answer is "abc", with the length of 3*)
 
-## 4. Median of Two Sorted Arrays
+## 4. Median of Two Sorted Arrays (Hard)
 
 Given two sorted arrays ```nums1``` and ```nums2``` of size ```m``` and ```n``` respectively, return **the median** of the two sorted arrays.
 
@@ -40,6 +40,18 @@ The overall run time complexity should be ```O(log (m+n))```.
 **Input:** nums1 = [1,3], nums2 = [2]
 
 **Output:** 2.00000 (*Explanation: merged array = [1,2,3] and median is 2*)
+
+## 5. (23.) Merge k Sorted Lists
+
+You are given an array of ```k``` linked-lists ```lists```, each linked-list is sorted in ascending order.
+
+## 6. (25.) Reverse Nodes in k-Group
+
+Given a linked list, reverse the nodes of a linked list *k* at a time and return its modified list.
+
+*k*  is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of *k*  then left-out nodes, in the end, should remain as it is.
+
+You may not alter the values in the list's nodes, only nodes themselves may be changed.
 
 
 
