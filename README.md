@@ -69,7 +69,22 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 
 **Output:** [3,2,1,4,5]
 
+## 7. Euler problem #8 Largest product in a series
 
+[Here](https://projecteuler.net/problem=8) is the page with the problem discussed
+
+## 8. Indexing_search
+**Input (on the following lines)**:
+* number of documents to process (n)
+* n lines with multi-word documents (1 document per line) 
+* number of queries to be processed (m)
+* m lines with single word queries
+
+**Output**:
+* m lines (one for each query)
+* in each line a list containing the numbers of documents in which a word from a given query occurred
+* each list sorted by the frequency of occurrence of the query word in the given document
+* If the query word did not occur in any document - return an empty list!
 
 
 
